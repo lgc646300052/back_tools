@@ -1,0 +1,47 @@
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 20536:tid 260] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 06 10:05:27.797456 2019] [ssl:warn] [pid 20536:tid 260] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 06 10:05:27.797456 2019] [mpm_winnt:notice] [pid 20536:tid 260] AH00455: Apache/2.4.38 (Win64) OpenSSL/1.0.2r configured -- resuming normal operations
+[Wed Mar 06 10:05:27.797456 2019] [mpm_winnt:notice] [pid 20536:tid 260] AH00456: Server built: Feb 27 2019 11:13:16
+[Wed Mar 06 10:05:27.798456 2019] [core:notice] [pid 20536:tid 260] AH00094: Command line: 'F:\\LGC\\tools\\Apache24\\bin\\httpd.exe -d F:/LGC/tools/Apache24'
+[Wed Mar 06 10:05:27.921463 2019] [mpm_winnt:notice] [pid 20536:tid 260] AH00418: Parent: Created child process 19932
+[Wed Mar 06 10:05:28.984524 2019] [ssl:warn] [pid 19932:tid 148] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 06 10:05:29.122532 2019] [ssl:warn] [pid 19932:tid 148] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 06 10:05:29.203536 2019] [mpm_winnt:notice] [pid 19932:tid 148] AH00354: Child: Starting 64 worker threads.
+[Wed Mar 06 10:30:28.007263 2019] [mpm_winnt:notice] [pid 20536:tid 260] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Mar 06 10:30:30.007377 2019] [mpm_winnt:notice] [pid 19932:tid 148] AH00364: Child: All worker threads have exited.
+[Wed Mar 06 10:30:30.022378 2019] [mpm_winnt:notice] [pid 20536:tid 260] AH00430: Parent: Child process 19932 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 22444:tid 260] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 06 10:53:26.201091 2019] [ssl:warn] [pid 22444:tid 260] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 06 10:53:26.201091 2019] [mpm_winnt:notice] [pid 22444:tid 260] AH00455: Apache/2.4.38 (Win64) OpenSSL/1.0.2r configured -- resuming normal operations
+[Wed Mar 06 10:53:26.201091 2019] [mpm_winnt:notice] [pid 22444:tid 260] AH00456: Server built: Feb 27 2019 11:13:16
+[Wed Mar 06 10:53:26.201091 2019] [core:notice] [pid 22444:tid 260] AH00094: Command line: 'F:\\LGC\\tools\\Apache24\\bin\\httpd.exe -d F:/LGC/tools/Apache24'
+[Wed Mar 06 10:53:26.209092 2019] [mpm_winnt:notice] [pid 22444:tid 260] AH00418: Parent: Created child process 22216
+[Wed Mar 06 10:53:27.176147 2019] [ssl:warn] [pid 22216:tid 148] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 06 10:53:27.301154 2019] [ssl:warn] [pid 22216:tid 148] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 06 10:53:27.334156 2019] [mpm_winnt:notice] [pid 22216:tid 148] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 07 11:12:00.843845 2019] [ssl:warn] [pid 1996:tid 260] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 07 11:12:00.999845 2019] [core:warn] [pid 1996:tid 260] AH00098: pid file F:/LGC/tools/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 07 11:12:01.077845 2019] [ssl:warn] [pid 1996:tid 260] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 07 11:12:01.077845 2019] [mpm_winnt:notice] [pid 1996:tid 260] AH00455: Apache/2.4.38 (Win64) OpenSSL/1.0.2r configured -- resuming normal operations
+[Thu Mar 07 11:12:01.109045 2019] [mpm_winnt:notice] [pid 1996:tid 260] AH00456: Server built: Feb 27 2019 11:13:16
+[Thu Mar 07 11:12:01.109045 2019] [core:notice] [pid 1996:tid 260] AH00094: Command line: 'F:\\LGC\\tools\\Apache24\\bin\\httpd.exe -d F:/LGC/tools/Apache24'
+[Thu Mar 07 11:12:01.374246 2019] [mpm_winnt:notice] [pid 1996:tid 260] AH00418: Parent: Created child process 1408
+[Thu Mar 07 11:12:01.967047 2019] [ssl:warn] [pid 1408:tid 148] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 07 11:12:02.107447 2019] [ssl:warn] [pid 1408:tid 148] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 07 11:12:02.107447 2019] [mpm_winnt:notice] [pid 1408:tid 148] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 07 11:13:05.440605 2019] [mpm_winnt:notice] [pid 1996:tid 260] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 07 11:13:07.440720 2019] [mpm_winnt:notice] [pid 1408:tid 148] AH00364: Child: All worker threads have exited.
+[Thu Mar 07 11:13:07.452720 2019] [mpm_winnt:notice] [pid 1996:tid 260] AH00430: Parent: Child process 1408 exited successfully.
+[Thu Mar 07 11:14:25.815089 2019] [ssl:warn] [pid 1984:tid 260] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 07 11:14:26.080289 2019] [ssl:warn] [pid 1984:tid 260] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 07 11:14:26.080289 2019] [mpm_winnt:notice] [pid 1984:tid 260] AH00455: Apache/2.4.38 (Win64) OpenSSL/1.0.2r configured -- resuming normal operations
+[Thu Mar 07 11:14:26.095889 2019] [mpm_winnt:notice] [pid 1984:tid 260] AH00456: Server built: Feb 27 2019 11:13:16
+[Thu Mar 07 11:14:26.095889 2019] [core:notice] [pid 1984:tid 260] AH00094: Command line: 'F:\\LGC\\tools\\Apache24\\bin\\httpd.exe -d F:/LGC/tools/Apache24'
+[Thu Mar 07 11:14:26.095889 2019] [mpm_winnt:notice] [pid 1984:tid 260] AH00418: Parent: Created child process 1864
+[Thu Mar 07 11:14:26.517090 2019] [ssl:warn] [pid 1864:tid 148] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 07 11:14:26.641890 2019] [ssl:warn] [pid 1864:tid 148] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 07 11:14:26.641890 2019] [mpm_winnt:notice] [pid 1864:tid 148] AH00354: Child: Starting 64 worker threads.
